@@ -1,3 +1,5 @@
+//  num_to_word means "1234" ---->>>> one housand, two hundred, thirty, four.... 
+
 #include <stdio.h>
 
 char *ones[] = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", 
