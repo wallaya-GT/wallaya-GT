@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// strcat ( srting concatnate ) 
+
 char    *strcat(char *dest, char *src)
 {
     int i;
@@ -27,3 +29,4 @@ int main()
     strcat(dest, src);
     printf("%s\n", dest);
 }
+// expected outcome ---->>>> "How is everything with ya?"  
